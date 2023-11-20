@@ -3,7 +3,7 @@ package com.spartaproject.spartaproject.dto;
 import lombok.Getter;
 
 @Getter
-public class PostAddRequestDto {
+public class BoardAddRequestDto {
     private String title;
     private String author;
     private String password;
