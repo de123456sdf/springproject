@@ -70,6 +70,7 @@ public class BoardController {
         );
     }
 
+
     @ExceptionHandler(AuthorizeException.class)
     public ResponseEntity<ErrorResponseDto> boardNotFoundExceptionHandler(AuthorizeException ex) {
         return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(
